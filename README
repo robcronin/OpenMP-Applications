@@ -1,0 +1,22 @@
+Based on assignment in HPC module for MSc in HPC
+Some basic applications of using openMP
+	- Gauss Eliminiation
+	- Sieve of Eratosthenes
+
+
+Note: This was developed early in the course and may be a bit rough around the edges
+	e.g. It has not been properly seperated into header files etc
+
+
+
+To compile:
+	make
+
+To run:
+	make gauss-test
+	make sieve-test
+	./gauss.out [-n int]
+	./sieve.out [-n int]
+
+To graph:
+	make graph		- About 1-2 minutes
